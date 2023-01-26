@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         int initialAccount = 100;
-        int added = 1400;
+        int added = 1050;
         int bonus = 0;
         if (added > 1100) {
             bonus = added / 100;
