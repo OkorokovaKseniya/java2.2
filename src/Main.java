@@ -4,10 +4,9 @@ public class Main {
         int initialAccount = 100;
         int added = 1050;
         int bonus = 0;
-        if (added > 1100) {
+        if (added > 1000) {
             bonus = added / 100;
         }
-
         int finalAccount = initialAccount + added + bonus;
 
         System.out.println("Итоговый счет: " + finalAccount);
